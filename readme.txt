@@ -63,9 +63,6 @@ smooths image based on odd window size(ws), eg. (3,5,7,...)
 -1D incremental and seperable uniform smoothing
 	-dont use edge cases rois for this function
 
-*****************************************************
-Assignment 2 Functions
-
 8. Histogram Stretching: histogram_stretch
 Given a range [a,b], the intensity historgram of an image is stretched to the range [0,255]
 -pixel intensity -> 0 if pixel <= a
@@ -82,9 +79,6 @@ Given a range [a,b], stretch the intensity histogram of each color channel (Red,
 
 11. Histogram stretching I channel of HSI color space: hsi_stretch
 Convert from RGB -> HSI then perform histogram stretching on I channel of HSI color space ([a,b] -> [0,255]), then convert HSI -> RGB to display image.
-
-*****************************************************
-Assignment 3 Functions
 
 12. Edge Detection on Grey Level images using sobel: edge_detection
 Given input: threshold, direction, and window size.
@@ -107,7 +101,7 @@ Given input: thresholdmin, thresholdmax, and window size
 Uses canny module of opencv to generate a thresholded gradient amplitude image
 
 *****************************************************
-Assignment 4 Functions (All functions make use of opencv to perform operations)
+ (All functions make use of opencv to perform operations)
 
 17. Histogram Stretching using opencv: HS_CV
 Using range of pixels in image ([min,max]), intensity histogram of image is stretched to the range [0,255] 
@@ -147,10 +141,10 @@ line 1.
 		-for sobel_grey, canny_grey, and canny_hsv, the output file is of type .jpg
 		-for Assignment 4 functions, the output file is of type .jpg
 	c. the name of the filter. 
-		Assignments 0 & 1:Use "add", "binarize", "scale", "thresholded_add", "double_thresh", "color_mod", "smoothing_2D", "smoothing_1D", 
-		Assignment 2: "histogram_stretch", "threshold_stretch","color_stretch", "hsi_stretch";
-		Assignment 3: "edge_detection","hsi_edge_detection","sobel_grey","canny_grey", "canny_hsv" (Note:make sure to add opencv before filter name for opencv filters)
-		Assignement 4: "HS_CV", "HE_CV", "HEonV", "HEonHSV", "HE_Sobel", "HE_Canny" (add opencv before filter names)
+		1-8: "add", "binarize", "scale", "thresholded_add", "double_thresh", "color_mod", "smoothing_2D", "smoothing_1D", 
+		9-12: "histogram_stretch", "threshold_stretch","color_stretch", "hsi_stretch";
+		12-16: "edge_detection","hsi_edge_detection","sobel_grey","canny_grey", "canny_hsv" (Note:make sure to add opencv before filter name for opencv filters)
+		17-22: "HS_CV", "HE_CV", "HEonV", "HEonHSV", "HE_Sobel", "HE_Canny" (add opencv before filter names)
 	d. number of rois
 
 
