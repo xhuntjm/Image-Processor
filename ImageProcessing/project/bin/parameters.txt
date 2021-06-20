@@ -1,0 +1,24 @@
+garden.jpg garden_hsv.jpg opencv HE_HSV 2
+0 0 400 300 v
+401 301 400 200 hs
+garden.jpg garden_hsv2.jpg opencv HE_HSV 1
+0 0 800 532 hsv
+dog.jpg dog_sobel.jpg opencv HE_Sobel 1
+0 0 640 427 60 5
+dog.jpg dog_canny.jpg opencv HE_Canny 1
+0 0 640 427 0 50 3
+dog.jpg dog_cannyroi.jpg opencv HE_Canny 2
+0 0 200 427 0 50 3
+300 200 300 100 50 100 3
+surf.jpg surf_hs.jpg opencv HS_opencv 1
+0 0 720 700
+surf.jpg surf_he.jpg opencv HE_opencv 1
+0 0 720 700
+park.jpg park_he_roi.jpg opencv HE_opencv 3
+0 0 200 150
+300 100 260 200
+401 0 120 387 
+gamer.jpg gamer_v.jpg opencv HE_V 1
+0 0 500 500
+gamer.jpg gamer_hsv.jpg opencv HE_HSV 1
+0 0 250 500 hsv
